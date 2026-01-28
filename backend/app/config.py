@@ -6,13 +6,15 @@ class Settings(BaseSettings):
     """Application settings loaded from environment variables."""
     
     # Application
-    app_name: str
-    app_version: str = "0.1.0"
+    app_name: str = "Cloud Advisor API"
+    app_version: str = "1.0.0"
     debug: bool = False
-    database_url: str
     
-    # Prevent CORS issues 
-    frontend_url: str
+    # Database (defaults to SQLite for local dev)
+    database_url: str = "sqlite:///./conversations.db"
+    
+    # CORS - Frontend URL
+    frontend_url: str = "http://localhost:3000"
     
     class Config:
         env_file = ".env"
