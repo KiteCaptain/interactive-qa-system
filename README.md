@@ -1,9 +1,12 @@
 # Cloud Advisor - Interactive Q&A System
 
 An AI-powered Q&A system built with **Next.js 16**, **FastAPI**, and **Google Gemini**. This application serves as a Cloud Advisor, helping users understand Google Cloud Platform, Google Workspace, and cloud migration strategies.
+This is an Assessment Project - Built for Pawa IT Solutions Full-Stack Developer Assessment
 
-> ** Assessment Project** - Built for Pawa IT Solutions Full-Stack Developer Assessment
-
+---
+View the live app at
+[Backend](https://interactive-qa-system-production.up.railway.app)
+[frontend](https://interactive-qa-system.vercel.app/)
 ---
 
 ## Table of Contents
